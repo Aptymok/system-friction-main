@@ -138,8 +138,6 @@ math: true
      NAVEGACIÓN - Usando doc-footer-nav
 ====================================================== -->
 <div class="doc-footer-nav" style="margin-top: 3rem;">
-  <a href="{{ site.baseurl }}/">← Dashboard (estado actual)</a>
-  <a href="{{ site.baseurl }}/docs/">Archivo de patrones</a>
-  <a href="{{ site.baseurl }}/nodo-ags/">Nodo AGS</a>
-  <a href="{{ site.baseurl }}/estado/">Estado del sistema</a>
+  <a href="https://aptymok.github.io/systemfrictionlab">System Friction Lab v.Beta</a>
+  <a href="https://aptymok.github.io/system-friction-main">Home</a>
 </div>
