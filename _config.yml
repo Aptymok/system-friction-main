@@ -37,7 +37,7 @@ collections:
     permalink: /docs/:name/
   nodo_ags:
     output: true
-    permalink: /nodo-ags/:name/
+    permalink: /nodo_ags/:name/
   mihm:
     output: true
     permalink: /mihm/:name/
@@ -80,4 +80,4 @@ twitter:
 social:
   name: System Friction
   links:
-    - https://github.com/aptymok/system-friction
+    - https://github.com/aptymok/system-friction-main
