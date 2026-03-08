@@ -137,6 +137,5 @@ math: true
      NAVEGACIÓN - Usando doc-footer-nav
 ====================================================== -->
 <div class="doc-footer-nav" style="margin-top: 3rem;">
-  <a href="https://aptymok.github.io/systemfrictionlab">System Friction Lab v.Beta</a>
-  <a href="https://aptymok.github.io/system-friction-main">Home</a>
+  <a href="https://aptymok.github.io/systemfrictionlab/index.html">System Friction Lab v.Beta</a>
 </div>
