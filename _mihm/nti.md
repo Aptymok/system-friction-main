@@ -1,17 +1,12 @@
 ---
-layout: redirect
-permalink: /mihm/nti/
-redirect_to: /mihm/#dashboard
-------
-layout: audit
+layout: default
 title: "NTI — Nodo de Trazabilidad Institucional"
 version: "1.1"
 status: validated
 origin: vhpd
 date: 2026-02-23
+permalink: /mihm/nti/
 ---
-
-# NTI — Nodo de Trazabilidad Institucional
 
 El NTI es la capa de auditoría del MIHM v2.0. Condiciona el IHG a la integridad real de los datos disponibles. Cuando NTI < UCAP (0.40), el sistema opera en modo ciego.
 
