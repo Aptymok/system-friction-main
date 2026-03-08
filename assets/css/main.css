@@ -960,3 +960,319 @@ ul li::before { content: '·'; position: absolute; left: 0; color: var(--accent-
     gap: 1.5rem;
   }
 }
+/* ======================================================
+     NUEVO HEADER (reemplaza al topbar fijo)
+====================================================== */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: relative; /* ya no es fixed */
+  width: 100%;
+  z-index: 10;
+}
+
+.site-header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8rem var(--gap);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Logo / Brand */
+.site-logo {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.site-logo__sf {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+.site-logo__sep {
+  color: var(--text-dim);
+  font-weight: 300;
+}
+
+.site-logo__full {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Navegación */
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.site-nav__item {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 0.3rem 0;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s var(--ease);
+  text-decoration: none;
+}
+
+.site-nav__item:hover {
+  color: var(--text);
+  border-bottom-color: var(--gold-dim);
+}
+
+.site-nav__item--lab {
+  color: var(--gold);
+}
+
+.site-nav__item--lab:hover {
+  color: var(--text-bright);
+  border-bottom-color: var(--gold);
+}
+
+/* Ajuste responsive */
+@media (max-width: 640px) {
+  .site-header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .site-nav {
+    gap: 1rem;
+  }
+}
+/* ======================================================
+     NUEVO FOOTER (reemplaza el anterior)
+====================================================== */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  padding: var(--gap-lg) var(--gap);
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  line-height: 1.8;
+}
+
+.site-footer__main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--gap-lg);
+  margin-bottom: var(--gap-lg);
+  padding-bottom: var(--gap);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 300px;
+}
+
+.site-footer__brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.site-footer__sf {
+  font-size: 0.8rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.site-footer__version {
+  font-size: 0.55rem;
+  color: var(--text-faint);
+  background: var(--surface2);
+  padding: 0.2em 0.5em;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+}
+
+.site-footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer__line {
+  color: var(--text-faint);
+}
+
+.site-footer__email {
+  color: var(--gold-dim);
+  font-size: 0.65rem;
+}
+
+.site-footer__email:hover {
+  color: var(--gold);
+}
+
+.site-footer__mantra {
+  font-style: italic;
+  color: var(--text-faint);
+  border-left: 1px solid var(--border);
+  padding-left: 0.8rem;
+}
+
+.site-footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.site-footer__license {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.license-link {
+  color: var(--gold-dim);
+  border: 1px solid var(--border);
+  padding: 0.2em 0.6em;
+  border-radius: var(--r);
+  font-size: 0.55rem;
+  background: var(--surface2);
+}
+
+.license-link:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+}
+
+.site-footer__domain a {
+  color: var(--text-dim);
+  font-size: 0.7rem;
+}
+
+.site-footer__domain a:hover {
+  color: var(--gold);
+}
+
+.site-footer__nav {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.site-footer__nav a {
+  color: var(--text-dim);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer__nav a:hover {
+  color: var(--text);
+  border-bottom-color: var(--gold-dim);
+}
+
+.nav-sep {
+  color: var(--text-faint);
+  font-size: 0.4rem;
+}
+
+/* Capa de auditoría */
+.site-footer__audit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: var(--gap) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.audit-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.audit-row .audit-badge {
+  color: var(--gold-dim);
+  font-weight: 400;
+  min-width: 120px;
+}
+
+.audit-row a {
+  color: var(--text-dim);
+  font-size: 0.6rem;
+}
+
+.audit-row a:hover {
+  color: var(--text);
+}
+
+/* Capa de trazabilidad técnica */
+.site-footer__trace {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-top: var(--gap);
+  color: var(--text-faint);
+  font-size: 0.55rem;
+}
+
+.trace-item {
+  position: relative;
+}
+
+.trace-item:not(:last-child)::after {
+  content: '|';
+  position: absolute;
+  right: -0.9rem;
+  color: var(--border);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .site-footer__main {
+    flex-direction: column;
+    gap: var(--gap);
+  }
+  
+  .site-footer__right {
+    align-items: flex-start;
+  }
+  
+  .site-footer__nav {
+    justify-content: flex-start;
+  }
+  
+  .site-footer__trace {
+    gap: 1rem;
+  }
+  
+  .trace-item:not(:last-child)::after {
+    display: none;
+  }
+  
+  .trace-item {
+    display: block;
+    width: 100%;
+  }
+}
