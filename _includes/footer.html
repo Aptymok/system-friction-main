@@ -1,16 +1,18 @@
 <footer class="site-footer">
   <!-- CAPA 1: INFORMACIÓN LEGAL Y DE VERSIÓN -->
-  <div class="license">
-    <div>
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
       <span>© 2026 System Friction</span><br>
       <span>Observaciones que desafíen este marco:</span><br>
       <a href="mailto:aptymok@gmail.com" class="footer-email">aptymok@gmail.com</a><br><br>
       <span>El ecosistema crece por acumulación,<br>
-      no por corrección de consistencia.</span><br>
+      no por corrección de consistencia.</span>
     </div>
-    <div class="footer-right">
-      <div class="license">© 2026 Juan Antonio Marín Liera · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></div>
-      <div class="license"><a href="https://systemfriction.org">systemfriction.org</a></div>
+    
+    <div class="site-footer__right">
+      <div class="license-text">© 2026 Juan Antonio Marín Liera · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></div>
+      <div class="domain-link"><a href="https://systemfriction.org">systemfriction.org</a></div>
+      
       <div class="doc-footer-nav">
         <a href="{{ site.baseurl }}/about/">Ontología del Sistema</a> ·
         <a href="{{ site.baseurl }}/changelog/">Trazabilidad (Changelog)</a> ·
@@ -20,13 +22,16 @@
     </div>
   </div>
 
-    <div class="site-foot__audit">
-     <span class="audit-badge">NTI del Sistema · <br>
-     <a href="{{ site.baseurl }}/estado/">Auditoría · 08 de Marzo 2026  → </a></span>
+  <!-- CAPA 2: AUDITORÍA Y LABORATORIO (en una sola línea) -->
+  <div class="site-footer__bottom" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+    <div class="audit-item">
+      <span class="audit-badge">NTI del Sistema · </span>
+      <a href="{{ site.baseurl }}/estado/">Auditoría · 08 de Marzo 2026 →</a>
     </div>
-
-    <div class="site-foot__audit">
-     <span class="audit-badge">System Friction Lab · Beta<br>
-     <a href="{{ site.baseurl }}/SystemFrictionLab/index.html/">Métodos estocásticos<br>e interconexión sistémica<br> · 08 de Marzo 2026  → </a></span>
+    
+    <div class="lab-item">
+      <span class="audit-badge">System Friction Lab · Beta<br></span>
+      <a href="{{ site.baseurl }}/SystemFictionLab/">Métodos estocásticos e interconexión sistémica · 08 de Marzo 2026 →</a>
     </div>
-  </footer> 
+  </div>
+</footer>
