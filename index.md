@@ -160,7 +160,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </div>
 
       <!-- Nodo AGS - Entrada principal -->
-      <a href="{{ site.baseurl }}/nodo-ags/" class="doc-item nodo" style="grid-column: 1 / -1;">
+      <a href="{{ site.baseurl }}/nodo_ags/" class="doc-item nodo" style="grid-column: 1 / -1;">
         <div class="doc-num">NODO AGS · ENTRADA</div>
         <div class="doc-title">Aguascalientes como sistema observable</div>
         <div class="doc-sub">Aplicación del marco a un caso geográfico con datos verificables.</div>
@@ -168,7 +168,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-01 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-01/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-01/" class="doc-item">
         <div class="doc-num">AGS-01</div>
         <div class="doc-title">La distancia que no se mide</div>
         <div class="doc-sub">Umbrales reales vs. oficiales.</div>
@@ -176,7 +176,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-02 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-02/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-02/" class="doc-item">
         <div class="doc-num">AGS-02</div>
         <div class="doc-title">El costo de la latencia</div>
         <div class="doc-sub">Tiempo de resolución como variable de ajuste.</div>
@@ -184,7 +184,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-03 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-03/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-03/" class="doc-item">
         <div class="doc-num">AGS-03</div>
         <div class="doc-title">El agua que no se ve</div>
         <div class="doc-sub">Brecha entre concesión y operación real.</div>
@@ -192,7 +192,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-04 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-04/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-04/" class="doc-item">
         <div class="doc-num">AGS-04</div>
         <div class="doc-title">La ficción institucional</div>
         <div class="doc-sub">Métricas que describen un sistema que ya no opera así.</div>
@@ -200,7 +200,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-05 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-05/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-05/" class="doc-item">
         <div class="doc-num">AGS-05</div>
         <div class="doc-title">El pacto no escrito</div>
         <div class="doc-sub">Equilibrio implícito con variables no documentadas.</div>
@@ -208,7 +208,7 @@ title: "System Friction · Archivo de fricción sistémica"
       </a>
 
       <!-- AGS-06 (narrativa) -->
-      <a href="{{ site.baseurl }}/nodo-ags/ags-06/" class="doc-item">
+      <a href="{{ site.baseurl }}/nodo_ags/ags-06/" class="doc-item">
         <div class="doc-num">AGS-06</div>
         <div class="doc-title">Después del acuerdo</div>
         <div class="doc-sub">Ruptura del equilibrio implícito.</div>
@@ -222,7 +222,7 @@ title: "System Friction · Archivo de fricción sistémica"
         <span>Instrumentalización del dolor</span>
       </div>
 
-      <!-- Nodo AGS - Entrada principal -->
+      <!-- Nodo APTYMOK - Entrada principal -->
       <a href="{{ site.baseurl }}/docs/nodo-aptymok/" class="doc-item nodo" style="grid-column: 1 / -1;">
         <div class="doc-num">NODO APTYMOK</div>
         <div class="doc-title">Reconstrucción forense relacional</div>
