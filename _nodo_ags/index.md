@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Nodo AGS — Aguascalientes como sistema observable"
 description: "Aguascalientes como sistema observable. Validación empírica del framework MIHM."
 permalink: /nodo_ags/
@@ -7,8 +6,8 @@ doc_id: "nodo-ags-index"
 node: "nodo-ags"
 ---
 
-<div class="doc-hdr">
-  <div class="doc-hdr__kicker">
+<div class="doc">
+  <div class="doc">
     Serie aplicada · Nodo Aguascalientes AGS01 - AGS06 · Implementación territorial
   </div>
   <h2>Nodo Aguascalientes</h2>
@@ -134,7 +133,7 @@ node: "nodo-ags"
 ====================================================== -->
 <div style="margin: 3rem 0 2rem;">
   <div class="section-rule">Síntesis del ciclo</div>
-  <a href="{{ site.baseurl }}/MIHM/caso-de-estudio/" class="doc-card doc-card--critical" style="display: block; text-decoration: none;">
+  <a href="{{ site.baseurl }}/MIHM/caso-estudio/" class="doc-card doc-card--critical" style="display: block; text-decoration: none;">
     <span class="doc-card__id">CIERRE EMPÍRICO · NODO AGUASCALIENTES</span>
     <div class="doc-card__title" style="font-size: 1.3rem;">Caso de Estudio: 136 días</div>
     <div class="doc-card__sub" style="font-size: 0.9rem;">Observación de patrones bajo el marco MIHM v2.0. Transición de equilibrio implícito a protocolo EMERGENCY_DECISION.</div>
@@ -165,5 +164,5 @@ node: "nodo-ags"
   <a href="{{ site.baseurl }}/">← inicio</a> ·
   <a href="{{ site.baseurl }}/mihm/">MIHM v2.0</a> ·
   <a href="{{ site.baseurl }}/estado/">estado del sistema</a> ·
-  <a href="{{ site.baseurl }}/#audit">auditoría</a>
+  <a href="https://aptymok.github.io/systemfrictionlab/index.html">System Friction Lab v.Beta</a>
 </div>
