@@ -3,7 +3,6 @@ layout: default
 title: "System Friction · Archivo de fricción sistémica"
 ---
 
-<main>
   <div class="doc-container">
 
     <!-- ======================================================
@@ -273,4 +272,3 @@ title: "System Friction · Archivo de fricción sistémica"
 
 
   </div>
-</main>
