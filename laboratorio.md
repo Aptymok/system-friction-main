@@ -295,7 +295,7 @@ math: true
       <p style="color: var(--tx2); margin-bottom: 1rem;">
         Lea el <strong>análisis completo</strong> que amalgama la narrativa de cada etapa AGS con sus métricas MIHM correspondientes.
       </p>
-      <a href="{{ site.baseurl }}/MIHM/caso-de-estudio/" style="display: inline-block; padding: 0.6rem 1.2rem; background: var(--ac); color: white; border-radius: var(--r); text-decoration: none; font-weight: 600;">Abrir Caso de Estudio Completo →</a>
+      <a href="{{ site.baseurl }}/MIHM/caso-estudio/" style="display: inline-block; padding: 0.6rem 1.2rem; background: var(--ac); color: white; border-radius: var(--r); text-decoration: none; font-weight: 600;">Abrir Caso de Estudio Completo →</a>
     </div>
     
     <div class="timeline-horizontal">
