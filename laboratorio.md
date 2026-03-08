@@ -413,7 +413,7 @@ math: true
   <!-- Navegación -->
   <div class="nav-footer">
     <a href="{{ site.baseurl }}/mihm/" style="padding: 0.6rem 1.2rem; background: var(--ac); color: white; border-radius: var(--r); text-decoration: none; font-weight: 600;">← Motor Cuantitativo</a>
-    <a href="{{ site.baseurl }}/MIHM/caso-estudio/" style="padding: 0.6rem 1.2rem; border: 1px solid var(--ac); border-radius: var(--r); text-decoration: none;">Caso AGS completo</a>
+    <a href="{{ site.baseurl }}/nodo_ags/" style="padding: 0.6rem 1.2rem; border: 1px solid var(--ac); border-radius: var(--r); text-decoration: none;">Caso AGS completo</a>
     <a href="{{ site.baseurl }}/" style="padding: 0.6rem 1.2rem; border: 1px solid var(--bd); border-radius: var(--r); text-decoration: none;">Inicio</a>
   </div>
 
