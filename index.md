@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "System Friction · Archivo de fricción sistémica"
 ---
 
 <main>
@@ -229,35 +230,44 @@ layout: default
         <div class="doc-sub">Aplicación del marco a un caso relacional con datos verificables.</div>
         <span class="doc-arrow">→</span>
       </a>
+      
+      <div class="doc-grid" style="margin-top: 2rem;">
+      <div class="section-divider nodo" style="grid-column: 1 / -1;">
+        Navegación · Ecosistema
+        <span>Metodología · Variables y fórmulas de fricción sistémica</span>
+      </div>
 
-      ## Navegación del ecosistema
 
-      <div class="nav-grid">
+      <a href="{{ site.baseurl }}/mihm/" class="doc-item nodo" style="grid-column: 1 / -1;">
+        <div class="doc-num">MIHM v2.0</div>
+        <div class="doc-title">Modelo Integral Homeostático Multi-nodal</div>
+        <div class="doc-sub">Motor cuantitativo fórmulas y variables</div>
+        <span class="doc-arrow">→</span>
+      </a>
 
-        <a href="{{site.baseurl}}/mihm/" class="nav-card">
-          <div class="nav-card__title">MIHM v2.0</div>
-          <div class="nav-card__desc">Motor Cuantitativo · Fórmulas y variables</div>
-        </a>
+      <a href="{{ site.baseurl }}/laboratorio/" class="doc-item">
+        <div class="doc-num">Laboratorio</div>
+        <div class="doc-title">Explorador interativo</div>
+        <span class="doc-arrow">→</span>
+      </a>
 
-        <a href="{{site.baseurl}}/laboratorio/" class="nav-card">
-          <div class="nav-card__title">Laboratorio</div>
-          <div class="nav-card__desc">Explorador interactivo</div>
-        </a>
+      <a href="{{ site.baseurl }}/MIHM/caso-estudio/" class="doc-item">
+        <div class="doc-num">Caso Aguascalientes 2024 - 2026</div>
+        <div class="doc-title">Explorador interativo</div>
+        <span class="doc-arrow">→</span>
+      </a>
+    
+      <a href="{{ site.baseurl }}/docs/catalogo" class="doc-item">
+        <div class="doc-num">Catálogo de patrones</div>
+        <div class="doc-title">Patrones ↔ MIHM</div>
+        <span class="doc-arrow">→</span>
+      </a>
 
-        <a href="{{site.baseurl}}/MIHM/caso-estudio/" class="nav-card">
-          <div class="nav-card__title">Caso AGS</div>
-          <div class="nav-card__desc">Nodo Aguascalientes 2024–2026</div>
-        </a>
-
-        <a href="{{site.baseurl}}/docs/catalogo/" class="nav-card">
-          <div class="nav-card__title">Catálogo</div>
-          <div class="nav-card__desc">Patrones ↔ MIHM</div>
-        </a>
-
-        <a href="{{site.baseurl}}/docs/core-nti/" class="nav-card">
-          <div class="nav-card__title">NTI</div>
-          <div class="nav-card__desc">Auto-auditoría del sistema</div>
-        </a>
+      <a href="{{ site.baseurl }}/docs/core-nti" class="doc-item">
+        <div class="doc-num">NTI</div>
+        <div class="doc-title">Auto-auditoría del sistema</div>
+        <span class="doc-arrow">→</span>
+      </a>
 
       </div>
 
