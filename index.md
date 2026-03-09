@@ -272,7 +272,3 @@ title: "System Friction · Archivo de fricción sistémica"
 
 
   </div>
-
-
-
-A esto agrégale… y cambia los CSS … a los azules y blancos … adecuadamente … misma fuente … mismo diseño … solo cambia colores y agrega gráficas dinámicas de zoom en scorecards + ECG
